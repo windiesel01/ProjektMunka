@@ -1,0 +1,174 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #FCFDF2;
+  background-attachment: fixed;
+}
+
+header {
+  background-color: #7743DB;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+header h1 {
+  font-size: 24px;
+  margin: 0 20px 0 0;
+  color: #FFE9B1;
+}
+
+header nav {
+  display: flex;
+}
+
+header nav a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #FFE9B1;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: 2px solid #3B3486;
+  border-radius: 5px;
+  transition: all 0.2s ease-in-out;
+}
+
+header nav a:hover {
+  background-color: #3B3486;
+  color: #FFE9B1;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+  background-color: rgba(255,255,255,0.7);
+  margin-top: 80px;
+  background-image: url("images/villamos.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+main h2 {
+  color: white;
+  margin-bottom: 20px;
+  font-size: 70px;
+}
+
+main p, main a {
+  font-size: 28px;
+  line-height: 1.5;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.maintext{
+  background-color: grey;
+  background: rgba(0, 0, 0, 0.5);
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.informationtext{
+  background-color: grey;
+  background: rgba(0, 0, 0, 0.5);
+  height: 120vh;
+  text-align: left;
+  padding: 5%;
+  text-shadow: 3px 3px black;
+}
+
+.informationtext2{
+  background-color: grey;
+  background: rgba(0, 0, 0, 0.5);
+  text-align: left;
+  padding: 5%;
+  text-shadow: 3px 3px black;
+}
+
+.informationtext p{
+  width: 50vw;
+  float: left;
+}
+
+#infoimage{
+  float: right;
+  width: 600px;
+}
+
+.informationtext h2{
+  float: left;
+  width: 50vw;
+}
+
+#street{
+  width: 48%;
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.madebytext{
+  background-color: grey;
+  background: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.feedbacktext{
+  background: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+}
+
+table,td{
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid white;
+  padding: 10px;
+  font-weight: bold;
+}
+
+input[type=text] {
+  width: 230px;
+}
+
+input[type=submit] {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+input[type=submit]:hover {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+  background-color: #208637;
+  color: white;
+}
+
+
+footer {
+  background-color: #7743DB;
+  text-align: center;
+  padding: 20px;
+  color: #FFE9B1;
+  border-top: 2px solid #3B3486;
+}
